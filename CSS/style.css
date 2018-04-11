@@ -1,0 +1,574 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+section{
+	width: 100%;
+	display: flex;
+}
+.container {
+	width: 1170px;
+	/*border: 3px black solid;*/
+	margin: 0 375px;
+}
+.line{
+	width: 45px;
+	height: 2px;
+	margin-top: 15px;
+	margin-right: 15px;
+	border: 0 transparent;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	margin-top: 60px;
+	margin-bottom: 10px;
+	font-family: SegoeUI, sans-serif;
+	color: white;
+	font-size: 30px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: normal;
+	text-align: left;
+}
+#nav{
+	height: 150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+}
+#nav .blueasy{
+	width: 130px;
+	height: 25px;
+	padding-top: 64px;
+	padding-bottom: 61px;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+}
+#nav .blueasy p{
+	font-size: 30px;
+  	font-weight: bold;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 0.8;
+  	letter-spacing: normal;
+	font-family: SegoeUI, sans-serif;
+	color: white;
+	text-align: left;
+}
+#nav .blueasy .letterE{
+	color: #4bcaff;
+}
+#nav .navList div{
+  	height: 35px;
+  	margin-top: 58px;
+	margin-bottom: 57px;
+	margin-right: 30px;
+  	border: 2px transparent solid;
+	display: inline-block;
+	box-sizing: border-box;
+	float: right;
+}
+#nav .container .navList p{
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 35px;
+	letter-spacing: normal;
+	text-align: center;
+	font-family: SegoeUI, sans-serif;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#nav .container .navList div:hover {
+	border-color: #4bcaff;
+	cursor: pointer;
+}
+#nav .container .navList div:hover p{
+	color: #4bcaff;
+}
+
+
+
+#picture{
+	height: 800px;
+	background-image: url(../IMG/wheat.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+#picture .text{
+	margin-top: 400px;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-bottom: 258px;
+	width: 989px;
+	height: 142px;
+}
+#picture .text .heading2{
+	margin-left: 0;
+	margin-right: 0;
+}
+#picture .text .heading1{
+	margin-left: 135px;
+	margin-right: 135px;
+}
+#picture .text h2{
+	font-family: SegoeUI, sans-serif;
+	color: white;
+	font-size: 38px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 48px;
+	letter-spacing: normal;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+
+
+
+#services{
+	height: 405px;
+	background-color: #4bcaff;
+}
+#services .line{
+	background-color: white;
+}
+#services .line h1{
+	color: white;
+}	
+#services .container .block{
+	width: 259px;
+	height: 30vh;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+	margin: 0px 10px;
+}
+#services .container .block p, #services .container .block h2, #services .container .block img{
+	float: left;
+}
+#services .container .block img{
+	margin-top: 39px;
+}
+#services .container .block h2{
+	margin-top: 93px;
+	margin-left: -50px;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+	line-height: 35px;
+}
+#services .container .block p{
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+	line-height: 15px;
+}
+#services .container .block h2:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+
+#portfolio{
+	height: 844px;
+	background-color: white;
+}
+#portfolio .line{
+	background-color: #515f67;
+}
+#portfolio.container{
+	flex-direction: column;
+	justify-content: space-between;
+}	
+#portfolio .filters{
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+}
+#portfolio .filters .portfolio{
+	width: 148px;
+	height: 22px;
+	box-sizing: border-box;
+	display: inline-block;*/
+	float: left;
+}
+#portfolio .filters .portfolio h1{
+	color: #515f67;
+}
+#portfolio .filters .filtersPwrapper{
+	margin-top: -20px;
+	padding-left: 600px;
+}
+#portfolio .filters .filtersP{
+	margin-right: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	float: right;
+	border: 2px transparent solid;
+}
+#portfolio .filters .filtersP:hover{
+	border: 2px #4bcaff solid;
+}
+#portfolio .filters .filtersP:hover p{
+	color: #4bcaff;
+}
+#portfolio .filters .filtersP p{
+	margin-right: 5px;
+	margin-left: 5px;
+	font-family: SegoeUI, sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	color: #515f67;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: normal;
+	text-align: center;
+}
+#portfolio .filters .filtersP:hover div{
+	color: #4bcaff;
+	border: #4bcaff;
+}
+
+#portfolio .filtersImg{
+	padding-top: 50px;
+	padding-left: 15px;
+	width: 1170px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+#portfolio .filtersImg img{
+	width: 270px;
+	height: 270px;
+	margin-right: 15px;
+	margin-top: 15px;
+	position: relative;
+	z-index: 1;
+}
+#portfolio .filtersImg img:hover{
+	cursor: pointer;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#justDefaultSection{
+	height: 473px;
+	background-color: #353f46;
+}
+#justDefaultSection .line{
+	background-color: white;
+}
+#justDefaultSection p{
+	width: 468px;
+	height: 80px;
+	margin-top: 39px;
+	color: white;
+	font-family: SegoeUI, sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: normal;
+	text-align: left;
+}
+#justDefaultSection .button{
+	margin-top: 30px;
+	width: 140px;
+	height: 45px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border: 2px transparent solid;
+	
+}
+#justDefaultSection .button a{
+	margin-left: 35px;
+	color: black;
+	font-family: SegoeUI, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: normal;
+}
+#justDefaultSection .imgWrap{
+	margin-top: -20px;
+	padding-top: 10px;
+	float: right;
+}
+#justDefaultSection .button:hover{
+	border: 2px black solid;
+}
+
+
+
+
+
+
+
+
+#twitter{
+	height: 305px;
+	background-color: #4bcaff;
+}
+#twitter h1{
+	color: white;
+}
+#twitter .line{
+	background-color: white;
+}
+#twitter .img{
+	float: right;
+}
+#twitter .text{
+	margin-top: 20px;
+	font-size: 28px;
+	color: white;
+	font-family: SegoeUI, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 50px;
+	letter-spacing: normal;
+	text-align: left;
+}
+
+
+#whoIs{
+	height: 505px;
+	background-image: url(../IMG/__holder.png);
+}
+#whoIs .line{
+	background-color: white;
+}
+#whoIs .content{
+	padding-bottom: 70px;
+	display: column-block;
+}
+#whoIs .content p{
+	width: 560px;
+	height: 62px;
+	margin-top: 39px;
+	font-family: SegoeUI, sans-serif;
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: normal;
+	text-align: left;
+}
+#whoIs .socialsWrapper{
+	padding-left: 605px;
+}
+#whoIs .content .text3{
+	margin-top: -202px;
+	float: right;
+}
+#whoIs .socials{
+	margin-top: -60px;
+	width: 64px;
+	height: 64px;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 3px solid white;
+	text-align: center;
+	float: left;
+}
+#whoIs .socials img{
+	margin: 15px;
+}
+
+
+#testimonials{
+	height: 360px;
+	background-color: white;
+}
+#testimonials .img{
+	float: right;
+}
+#testimonials h1{
+	color: #353f46;
+}
+#testimonials .line{
+	background-color: #353f46;
+}
+#testimonials .text{
+	margin-top: 39px;
+}
+#testimonials p{
+	font-size: 28px;
+	color: #353f46;
+	font-family: SegoeUI, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 50px;
+	letter-spacing: normal;
+	text-align: left;
+}
+#testimonials .author p{
+	font-size: 14px;
+	color: #4bcaff;
+}
+
+
+
+
+
+#contact{
+	height: 814px;
+	background-image: url(../IMG/__bg-holder.png);
+}
+#contact .line{
+	background-color: white;
+}
+
+#contact .container .content .block, #contact .container .content .text{
+	box-sizing: border-box;
+	float: left;
+}
+
+#contact .container .content .text1 {
+	float: right;
+	margin-top: -200px;
+	margin-right: 70px;
+	width: 531px;
+	height: 63px;
+
+	font-family: SegoeUI;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+#contact .container .content .text2 {
+	margin-top: -90px;
+	margin-right: 360px;
+	width: 242px;
+	height: 85px;
+	float: right;
+	font-family: SegoeUI;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+#contact .container .content .block p{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-right: 700px;
+	width: 90px;
+ 	height: 11px;
+ 	font-family: SegoeUI;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	font-style: normal;
+	font-stretch: normal;
+ 	line-height: 1.71;
+ 	letter-spacing: normal;
+ 	text-align: left;
+ 	color: #ffffff;
+}
+#contact .container .content input{
+	margin-top: 9px;
+	width: 470px;
+	height: 60px;
+	background-color: transparent;
+	border: solid 2px #ffffff;
+}
+#contact .container .content .block:last-child input{
+	width: 1170px;
+	height: 220px;
+}
+#contact .container .btn {
+	margin-top: 40px;
+	float: left;
+	width: 370px;
+	height: 60px;
+	background-color: #4bcaff;
+	font-family: SegoeUI;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	border: 0;
+}
+#contact .container .btn:hover{
+	font-size: 25px;
+	cursor: pointer;
+}
+
+
+
+#footer{
+	height: 170px;
+	background-color: black;
+}
+#footer div{
+	height: 13px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 35px;
+	margin-right: 5px;
+}
+#footer p{
+	font-size: 12px;
+	color: white;
+	font-family: SegoeUI, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 13px;
+	letter-spacing: normal;
+	text-align: left;
+}
+#footer .year{
+	float: right;
+}
